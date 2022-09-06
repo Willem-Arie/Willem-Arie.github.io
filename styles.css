@@ -16,10 +16,16 @@ nav a {
 
 div {
     height: 60vh;
-    width: 75%;
+    width: 80%;
     background-color: darkslateblue;
     margin-left: auto;
     margin-right: auto;
+    -webkit-border-top-left-radius: 45px;
+    -webkit-border-bottom-right-radius: 45px;
+    -moz-border-radius-topleft: 45px;
+    -moz-border-radius-bottomright: 45px;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
 }
 
 h1 {
