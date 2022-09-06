@@ -1,7 +1,16 @@
 html {
-    background-color: deepskyblue;
+    background-color:darkslateblue;
 }
 
 nav {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+div {
+    width: 550px;
 }
