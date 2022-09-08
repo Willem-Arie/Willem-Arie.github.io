@@ -16,7 +16,7 @@ nav {
   border-radius: 0px;
 }
 
-.sidebar {
+aside {
   margin-top: -16px;;
   margin-left: 0px;
   width: 81px;
@@ -45,7 +45,7 @@ h1 {
 }
 
 h2 {
-
+  margin-top: -160vh;
   margin-left: 0;
 }
 
@@ -64,7 +64,7 @@ ul {
 }
 
 article {
-  margin-top: -176vh;
+  margin-top: -177vh;
   margin-left: 100px;
 }
 
