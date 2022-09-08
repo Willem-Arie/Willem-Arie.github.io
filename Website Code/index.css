@@ -2,8 +2,69 @@ header {
     text-align: center;
 }
 
-nav li {
+nav ul {
+    width: 100%;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    background-color: rgb(57, 93, 253);
+}
+
+nav li {
     display: inline;
+    float: left;
+}
+
+nav a {
     text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    color: white;
+}
+
+nav a:hover {
+    background-color: cornflowerblue;
+}
+
+.active {
+    background-color: rgb(26, 89, 206);
+}
+
+main {
+    display: inline;
+}
+
+article {
+    margin-left: 25px;
+}
+
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 71.5px;
+    overflow: hidden;
+    background-color: rgb(57, 93, 253);
+}
+
+aside li {
+    margin-left: -37px;
+    display: block;
+    width: 71.5px;
+}
+
+aside a {
+    text-decoration: none;
+    color: white;
+    padding: 1px 50px;
+}
+
+aside a:hover {
+    background-color: cornflowerblue;
+}
+
+footer {
+    display: block;
 }
