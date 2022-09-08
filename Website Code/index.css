@@ -37,7 +37,12 @@ main {
 }
 
 article {
-    margin-left: 25px;
+    margin-top: -1155px;
+    margin-left: 100px;
+}
+
+article li {
+    margin-left: -25px;
 }
 
 aside ul {
@@ -45,11 +50,13 @@ aside ul {
     margin: 0;
     padding: 0;
     width: 71.5px;
+    height: 235vh;
     overflow: hidden;
     background-color: rgb(57, 93, 253);
 }
 
 aside li {
+    margin-top: 4px;
     margin-left: -37px;
     display: block;
     width: 71.5px;
@@ -58,7 +65,7 @@ aside li {
 aside a {
     text-decoration: none;
     color: white;
-    padding: 1px 50px;
+    padding: 4px 50px;
 }
 
 aside a:hover {
