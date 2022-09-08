@@ -1,68 +1,95 @@
 body {
-    background-image: url('/images/website_background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+  background-image: url('/images/website_background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 nav {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(46, 39, 91);
+  border-radius: 0px;
+}
+
+.sidebar {
+  margin-top: -16px;;
+  margin-left: 0px;
+  width: 81px;
+  height: 179vh;
+  background-color: rgb(33, 27, 66);
+  border-radius: 0px;
 }
 
 nav a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 div {
-    height: 100vh;
-    width: 80%;
-    background-color: darkslateblue;
-    margin-left: auto;
-    margin-right: auto;
-    -webkit-border-top-left-radius: 45px;
-    -webkit-border-bottom-right-radius: 45px;
-    -moz-border-radius-topleft: 45px;
-    -moz-border-radius-bottomright: 45px;
-    border-top-left-radius: 45px;
-    border-bottom-right-radius: 45px;
+  height: 200vh;
+  width: 85%;
+  background-color: darkslateblue;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 45px;
+  border-bottom-right-radius: 45px;
 }
 
 h1 {
-    text-align: center;
-    margin-top: 100px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h2 {
+
+  margin-left: 0;
 }
 
 ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0px;
-  }
+  list-style-type: none;
+  margin-right: 3000px;
+  padding: 0;
+  margin-top: 15px;
+}
 
-  nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(46, 39, 91);
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: rgb(5, 0, 50);
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
-  .active {
-    background-color: #0011c9;
-  }
+article {
+  margin-top: -176vh;
+  margin-left: 100px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+li a:hover {
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(5, 0, 50);
+}
+
+.active {
+  background-color: #000753;
+  border-radius: 10px;
+}
