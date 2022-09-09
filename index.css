@@ -4,12 +4,18 @@ body {
 
 header {
     text-align: center;
+    height: 70px;
+    border-top-left-radius: 40px;
+}
+
+main, header, footer {
+    background-color: darkslateblue;
 }
 
 nav ul {
     width: 100%;
     list-style-type: none;
-    margin: 0;
+    margin:0;
     padding: 0;
     overflow: hidden;
     position: sticky;
@@ -77,5 +83,8 @@ aside a:hover {
 }
 
 footer {
+    margin-top: -16px;
+    height: 50px;
     display: block;
+    border-bottom-right-radius: 40px;
 }
