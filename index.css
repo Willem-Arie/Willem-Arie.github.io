@@ -1,4 +1,8 @@
 body {
+    background-image: url(/images/website_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     display: block;
 }
 
@@ -8,8 +12,16 @@ header {
     border-top-left-radius: 40px;
 }
 
-main, header, footer {
-    background-color: darkslateblue;
+header h1 {
+    padding: 15px;
+}
+
+main, header, footer, nav {
+    margin-left: auto;
+    color: white;
+    margin-right: auto;
+    width: 80%;
+    background-color:rgb(36, 21, 202);
 }
 
 nav ul {
@@ -87,4 +99,8 @@ footer {
     height: 50px;
     display: block;
     border-bottom-right-radius: 40px;
+}
+
+footer p {
+    margin-left: 10px;
 }
