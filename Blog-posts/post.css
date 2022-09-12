@@ -1,0 +1,11 @@
+article a {
+    color: lightgray;
+}
+
+.post1 {
+    height: 10px;
+}
+
+.post1:hover {
+    height: 100px;
+}
