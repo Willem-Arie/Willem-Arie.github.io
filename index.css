@@ -112,3 +112,7 @@ footer {
 footer p {
     margin-left: 10px;
 }
+
+summary {
+    padding: 10px;
+}
