@@ -7,7 +7,7 @@ article a {
     height: 50px;
     overflow: hidden;
     transition: height 1s;
-    background-color: blue;
+    background-color: cornflowerblue;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
 }
