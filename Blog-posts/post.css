@@ -3,6 +3,7 @@ article a {
 }
 
 .post1 {
+    margin-bottom: 20px;
     padding: 10px;
     height: 50px;
     overflow: hidden;

@@ -103,14 +103,24 @@ aside a:hover {
 }
 
 footer {
-    margin-top: -16px;
+    border-top: solid 5px rgb(26, 89, 206);
     height: 50px;
     display: block;
     border-bottom-right-radius: 40px;
 }
 
 footer p {
-    margin-left: 10px;
+    margin-left: 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    margin-left: -20px;
+    margin-top: -10px;
 }
 
 summary {
