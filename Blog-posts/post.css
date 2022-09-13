@@ -3,9 +3,37 @@ article a {
 }
 
 .post1 {
-    height: 10px;
+    height: 50px;
+    overflow: hidden;
 }
 
 .post1:hover {
-    height: 100px;
+    height: 140px;
+}
+
+.post2 {
+    height: 50px;
+    overflow: hidden;
+}
+
+.post2:hover {
+    height: 120px;
+}
+
+.post3 {
+    height: 50px;
+    overflow: hidden;
+}
+
+.post3:hover {
+    height: 120px;
+}
+
+.post4 {
+    height: 50px;
+    overflow: hidden;
+}
+
+.post4:hover {
+    height: 120px;
 }

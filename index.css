@@ -16,6 +16,13 @@ header h1 {
     padding: 15px;
 }
 
+.HZ-logo {
+    height: 50px;
+    position: block;
+    margin-left: 3px;
+    margin-top: 7px;
+}
+
 main, header, footer, nav {
     margin-left: auto;
     color: white;
