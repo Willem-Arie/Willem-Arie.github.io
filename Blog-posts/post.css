@@ -5,10 +5,11 @@ article a {
 .post1 {
     height: 50px;
     overflow: hidden;
+    transition: height 1s;
 }
 
 .post1:hover {
-    height: 140px;
+    height: 120px;
 }
 
 .post2 {
