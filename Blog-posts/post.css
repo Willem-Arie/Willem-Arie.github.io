@@ -7,13 +7,13 @@ article a {
     height: 50px;
     overflow: hidden;
     transition: height 1s;
-    background-color: cornflowerblue;
+    background-color: rgb(57, 93, 253);
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 
 .post1:hover {
-    height: 140px;
+    height: 120px;
 }
 
 .post2 {
@@ -21,13 +21,13 @@ article a {
     height: 50px;
     overflow: hidden;
     transition: height 1s;
-    background-color: blue;
+    background-color: rgb(57, 93, 253);
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 
 .post2:hover {
-    height: 140px;
+    height: 120px;
 }
 
 .post3 {
@@ -35,13 +35,13 @@ article a {
     height: 50px;
     overflow: hidden;
     transition: height 1s;
-    background-color: blue;
+    background-color: rgb(57, 93, 253);
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 
 .post3:hover {
-    height: 140px;
+    height: 120px;
 }
 
 .post4 {
@@ -49,13 +49,13 @@ article a {
     height: 50px;
     overflow: hidden;
     transition: height 1s;
-    background-color: blue;
+    background-color: rgb(57, 93, 253);
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 
 .post4:hover {
-    height: 140px;
+    height: 120px;
 }
 
 .post5 {
@@ -63,11 +63,11 @@ article a {
     height: 50px;
     overflow: hidden;
     transition: height 1s;
-    background-color: blue;
+    background-color: rgb(57, 93, 253);
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 
 .post5:hover {
-    height: 140px;
+    height: 120px;
 }
