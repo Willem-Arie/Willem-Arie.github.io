@@ -1,3 +1,7 @@
+html {
+    font-family: 'Arial', sans-serif;
+}
+
 body {
     background-image: url(/images/website_wallpaper.jpg);
     background-repeat: no-repeat;
@@ -66,7 +70,7 @@ main {
 }
 
 article {
-    margin-top: 0px;
+    margin-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -79,7 +83,7 @@ aside ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 71.5px;
+    width: 75px;
     height: 100%;
     overflow: hidden;
     background-color: rgb(26, 89, 206);
@@ -129,4 +133,28 @@ summary {
 
 article a {
     color: lightgray;
+}
+
+.ICT-plaatje {
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 58px;
+    height: 150px;
+    float: right;
+}
+
+.Game-photo {
+    margin-top: 70px;
+    margin-left: 10px;
+    height: 130px;
+    float: right;
+    border-radius: 10px;
+}
+
+.Foto-fiets {
+    margin-top: 40px;
+    margin-left: 10px;
+    height: 100px;
+    float: right;
+    border-radius: 10px;
 }
