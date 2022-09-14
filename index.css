@@ -126,3 +126,7 @@ footer ul {
 summary {
     padding: 10px;
 }
+
+article a {
+    color: lightgray;
+}
