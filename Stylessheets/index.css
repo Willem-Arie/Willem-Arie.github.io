@@ -86,7 +86,7 @@ aside ul {
     width: 75px;
     height: 100%;
     overflow: hidden;
-    background-color: rgb(26, 89, 206);
+    background-color: rgb(62, 110, 201);
 }
 
 aside li {
@@ -107,7 +107,7 @@ aside a:hover {
 }
 
 footer {
-    border-top: solid 5px rgb(26, 89, 206);
+    border-top: solid 5px rgb(62, 110, 201);
     height: 50px;
     display: block;
     border-bottom-right-radius: 40px;
@@ -138,13 +138,11 @@ article a {
 .ICT-plaatje {
     border-radius: 10px;
     margin-left: 10px;
-    margin-top: 58px;
     height: 120px;
     float: right;
 }
 
 .Game-photo {
-    margin-top: 70px;
     margin-left: 10px;
     height: 130px;
     float: right;
@@ -152,7 +150,13 @@ article a {
 }
 
 .Foto-fiets {
-    margin-top: 40px;
+    margin-left: 10px;
+    height: 200px;
+    float: right;
+    border-radius: 10px;
+}
+
+.Fruit-enzo {
     margin-left: 10px;
     height: 100px;
     float: right;
