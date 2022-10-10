@@ -1,0 +1,80 @@
+html {
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-image: url(/images/website_wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  display: block;
+}
+
+header {
+  text-align: center;
+  height: 70px;
+  border-top-left-radius: 40px;
+}
+
+header h1 {
+  padding: 15px;
+}
+
+.HZ-logo {
+  height: 50px;
+  position: block;
+  margin-left: 3px;
+  margin-top: 7px;
+}
+
+main, header, footer, nav {
+  margin-left: auto;
+  color: white;
+  margin-right: auto;
+  width: 80%;
+  background-color:rgb(36, 21, 202);
+}
+
+nav ul {
+  width: 100%;
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  background-color: rgb(57, 93, 253);
+}
+
+nav li {
+  display: inline;
+  float: left;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 14px 16px;
+  color: white;
+}
+
+nav a:hover {
+  background-color: cornflowerblue;
+}
+
+.active {
+  background-color: rgb(26, 89, 206);
+}
+
+main {
+  display: flex;
+}
+
+article {
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+article li {
+  margin-left: -25px;
+}
