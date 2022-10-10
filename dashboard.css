@@ -27,7 +27,7 @@ th {
   .studyprogress {
     background-color: green;
     height: 100%;
-    width: 0%;
+    width: 50%;
     border-radius: 4px;
 }
 
