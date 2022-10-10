@@ -2,7 +2,7 @@ article a {
     color: lightgray;
 }
 
-.post1 {
+.post1, .post2, .post3, .post4, .post5 {
     margin-bottom: 20px;
     padding: 10px;
     height: 50px;
@@ -13,62 +13,6 @@ article a {
     border-top-left-radius: 20px;
 }
 
-.post1:hover {
-    height: 120px;
-}
-
-.post2 {
-    padding: 10px;
-    height: 50px;
-    overflow: hidden;
-    transition: height 1s;
-    background-color: rgb(57, 93, 253);
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-}
-
-.post2:hover {
-    height: 120px;
-}
-
-.post3 {
-    padding: 10px;
-    height: 50px;
-    overflow: hidden;
-    transition: height 1s;
-    background-color: rgb(57, 93, 253);
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-}
-
-.post3:hover {
-    height: 120px;
-}
-
-.post4 {
-    padding: 10px;
-    height: 50px;
-    overflow: hidden;
-    transition: height 1s;
-    background-color: rgb(57, 93, 253);
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-}
-
-.post4:hover {
-    height: 120px;
-}
-
-.post5 {
-    padding: 10px;
-    height: 50px;
-    overflow: hidden;
-    transition: height 1s;
-    background-color: rgb(57, 93, 253);
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-}
-
-.post5:hover {
+.post1:hover, .post2:hover, .post3:hover, .post4:hover, .post5:hover {
     height: 120px;
 }
